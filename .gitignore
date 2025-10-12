@@ -1,13 +1,28 @@
-ABC/*
-!ABC/.gitkeep
-
-ARC/*
-!ARC/.gitkeep
-
-AGC/*
-!AGC/.gitkeep
-
-Others/*
-!Others/.gitkeep
-
+# ====== 一般的な除外 ======
 .DS_Store
+*.log
+*.tmp
+*.swp
+
+# ====== コンパイル生成物 ======
+*.out
+*.exe
+*.o
+*.obj
+*.class
+
+# ====== AtCoder CLI 関連 ======
+# 各タスクの実行結果・一時ファイルなど
+**/tests/
+!ABC/**/tests/
+**/__pycache__/
+
+# ====== ビルド成果物を除外 ======
+# a.out のようにコンパイル後生成される実行ファイルを除外
+**/*.out
+!**/tests/*.out
+
+# ====== 特定ファイルを残す ======
+!**/main.cpp
+!**/contest.acc.json
+!.gitignore

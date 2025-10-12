@@ -17,22 +17,22 @@
                 "panel": "shared"
             }
         },
-        {
-            "label": "-b.提出",
-            "type": "shell",
-            "command": "bash",
-            "args": [
-                "${workspaceFolder}/.scripts/t_submit.sh",
-                "${file}"
-            ],
-            "problemMatcher": [],
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": true,
-                "panel": "shared",
-            }
-        },
+        // {
+        //     "label": "-b.提出",
+        //     "type": "shell",
+        //     "command": "bash",
+        //     "args": [
+        //         "${workspaceFolder}/.scripts/t_submit.sh",
+        //         "${file}"
+        //     ],
+        //     "problemMatcher": [],
+        //     "presentation": {
+        //         "echo": true,
+        //         "reveal": "always",
+        //         "focus": true,
+        //         "panel": "shared",
+        //     }
+        // },
         {
             "label": "-c.ダウンロード",
             "type": "shell",
