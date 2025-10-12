@@ -9,6 +9,7 @@ RUN apt update && apt install -y --no-install-recommends \
     jq \
     gdb \
     vim \
+    time \
     && rm -rf /var/lib/apt/lists/*
     
 # AtCoder用ツールのインストール    
