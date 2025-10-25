@@ -5,9 +5,11 @@
     },
     // "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
+        "*.css": "tailwindcss",
         "*.ejs": "html",
         "ostream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "all": "cpp"
     },
     "forbeslindesay-taskrunner.prefix":"-",
     "forbeslindesay-taskrunner.source": "Workspace",

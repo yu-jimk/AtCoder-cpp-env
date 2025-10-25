@@ -9,6 +9,13 @@ using namespace atcoder;
 #define YES(b) ((b) ? "YES" : "NO")
 
 int main() {
+    ll n;
+    cin >> n;
+
+    vector<ll> a(n);
+    rep(i, n) cin >> a[i];
+
+    cout << n << endl;
 
     return 0;
 }
