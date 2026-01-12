@@ -23,7 +23,11 @@
             },
             "extensions": [
                 "ms-vscode.cpptools",
-                "forbeslindesay.forbeslindesay-taskrunner"
+                "ms-vscode.cpptools-extension-pack",
+                "ms-vscode.cmake-tools",
+                "ms-vscode.cpptools-themes",
+                "spmeesseman.vscode-taskexplorer",
+                "MS-CEINTL.vscode-language-pack-ja"
             ]
         }
     }
