@@ -10,6 +10,7 @@ RUN apt update && apt install -y --no-install-recommends \
     gdb \
     vim \
     time \
+    clang-format \
     && rm -rf /var/lib/apt/lists/*
     
 # AtCoder用ツールのインストール    
