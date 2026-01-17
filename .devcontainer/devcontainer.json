@@ -6,6 +6,8 @@
         "dockerfile": "../Dockerfile"
     },
     
+    "runArgs": ["--name", "atcoder_cpp_env"],
+    
     // "workspaceFolder": "/AtCoder",
     // "mounts": [
     //     "source=${localWorkspaceFolder},target=/AtCoder,type=bind"
