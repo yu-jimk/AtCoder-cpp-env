@@ -32,6 +32,7 @@
                 "ms-vscode.cpptools-extension-pack",
                 "ms-vscode.cmake-tools",
                 "ms-vscode.cpptools-themes",
+                "MS-CEINTL.vscode-language-pack-ja",
                 "actboy168.tasks",
             ]
         }
