@@ -9,6 +9,13 @@
                 "${workspaceFolder}/.scripts/t_test.sh",
                 "${file}"
             ],
+            "options": {
+                "statusbar": {
+                    "label": "$(beaker) テスト",
+                    "color": "#4EC9B0",
+                    "detail": "テストを実行"
+                }
+            },
             "problemMatcher": [],
             "presentation": {
                 "echo": true,
@@ -41,6 +48,13 @@
                 "${workspaceFolder}/.scripts/setup_problem.sh",
                 "task"
             ],
+            "options": {
+                "statusbar": {
+                    "label": "$(cloud-download) DL",
+                    "color": "#569CD6",
+                    "detail": "問題をダウンロード"
+                }
+            },
             "problemMatcher": [],
             "presentation": {
                 "echo": true,
@@ -56,6 +70,13 @@
             "args": [
                 "${workspaceFolder}/.scripts/login.sh"
             ],
+            "options": {
+                "statusbar": {
+                    "label": "$(key) ログイン",
+                    "color": "#DCDCAA",
+                    "detail": "AtCoderにログイン"
+                }
+            },
             "problemMatcher": [],
             "presentation": {
                 "echo": true,
@@ -81,6 +102,13 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
+            },
+            "options": {
+                "statusbar": {
+                    "label": "$(zap) Build",
+                    "color": "#C586C0",
+                    "detail": "C++をコンパイル"
+                }
             },
             "problemMatcher": [],
             "presentation": {

@@ -19,15 +19,20 @@
         "vscode": {
             "settings": {
                 // applesilicon bug
-                "extensions.verifySignature": false
+                "extensions.verifySignature": false,
+                // clang-formatの設定
+                "[cpp]": {
+                    "editor.defaultFormatter": "xaver.clang-format",
+                    "editor.formatOnSave": true
+                },
+                "clang-format.executable": "/usr/bin/clang-format"
             },
             "extensions": [
                 "ms-vscode.cpptools",
                 "ms-vscode.cpptools-extension-pack",
                 "ms-vscode.cmake-tools",
                 "ms-vscode.cpptools-themes",
-                "spmeesseman.vscode-taskexplorer",
-                "MS-CEINTL.vscode-language-pack-ja"
+                "actboy168.tasks",
             ]
         }
     }
