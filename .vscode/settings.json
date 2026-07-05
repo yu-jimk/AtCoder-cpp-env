@@ -4,6 +4,7 @@
         "editor.insertSpaces": true
     },
     "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.loggingLevel": "Debug",
     "C_Cpp.errorSquiggles": "enabled",
     // "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
